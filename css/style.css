@@ -1,0 +1,130 @@
+body {
+  margin: 0px;
+  background-color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+  border-bottom: 1px solid #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-links-block {
+  display: flex;
+  flex-direction: row;
+  margin-left: 53px;
+}
+
+.header-about-us {
+  border-right: 1px solid white;
+  color: white;
+  padding: 16px 40px 17px 43px;
+  margin-top: 26px;
+  margin-bottom: 21px;
+}
+
+.header-product {
+  border-right: 1px solid white;
+  color: white;
+  padding: 16px 43px 17px 43px;
+  margin-top: 26px;
+  margin-bottom: 21px;
+}
+
+.header-faq {
+  border-right: 1px solid white;
+  color: white;
+  padding: 16px 29px 17px 28px;
+  margin-top: 26px;
+  margin-bottom: 21px;
+}
+
+.header-langswitch {
+  color: #fff;
+  padding: 42px 107px 38px 0px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #fff;
+}
+
+.first {
+  width: 878px;
+  margin-left: 96px;
+  border-left: 1px solid white;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 72px;
+  color: #fff;
+  line-height: 100px;
+  margin: 179px 104px auto 76px;
+}
+
+.description {
+  font-family: 'Fira Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 31px;
+  color: #fff;
+  margin: 48px 77px auto 76px;
+}
+
+.buttons {
+  margin: 48px 200px 226px 76px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-open-real-count {
+  width: 243.68px;
+  height: 71.51px;
+  background: #D76E99;
+  font-family: 'Segoe UI';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.button-open-demo-count {
+  width: 308.68px;
+  height: 67.51px;
+  border: 2px solid #F2F2F2;
+  padding: 0;
+  font-family: 'Segoe UI';
+  background-color: transparent;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+
+
+.second {
+  position: relative;
+  width: 839px;
+  margin-right: 107px;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+.blur {
+  margin-left: 20px;
+  height: 700px;
+  background: #D76E99;
+  /* filter: blur(125px); */
+}
+
+.pic {
+  width: 750px;
+}
