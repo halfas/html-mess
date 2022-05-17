@@ -122,9 +122,11 @@ body {
   margin-left: 20px;
   height: 700px;
   background: #D76E99;
-  /* filter: blur(125px); */
+  filter: blur(125px);
 }
 
 .pic {
   width: 750px;
+  margin-left: -900px;
+  z-index: 1;
 }
